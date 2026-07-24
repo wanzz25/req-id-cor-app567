@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Izin internet cleartext (HTTP biasa, bukan HTTPS) khusus build debug,
+         berguna kalau kamu testing API_URL yang masih http:// lokal. -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application android:usesCleartextTraffic="true" />
+</manifest>
