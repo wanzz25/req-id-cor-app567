@@ -1,0 +1,35 @@
+name: req_id_cor
+description: "REQ ID COR (Clarity Over Resonance) — APK by wanz"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.1
+  shared_preferences: ^2.2.3
+  image_picker: ^1.1.2
+  google_fonts: ^8.1.0
+  intl: ^0.20.3
+  url_launcher: ^6.3.1
+  file_picker: ^8.1.2
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon/app_icon.png
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  min_sdk_android: 21
+  adaptive_icon_background: "#03050D"
+  adaptive_icon_foreground: "assets/icon/app_icon.png"
